@@ -5,8 +5,8 @@ def appending(detail):
     if file.tell()==0:
         writer.writerow(["Name","Age","Reg no","Department","Shift"])
     writer.writerow(detail)
-condition=True
 if __name__=="__main__":
+    condition=True
     count=1
     while(condition):
         details=input("Enter Student details in the given format [Name,Age,Register number,Department,Shift]:")
